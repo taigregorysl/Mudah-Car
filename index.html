@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style type="text/css">
+
+  #jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80);
+    background-size:cover;
+    height: 800px;
+    color:white;
+    padding-top:120px;
+  }
+
+  #carIcon{
+    font-size: 50px;
+    color: purple;
+  }
+
+  #clockIcon{
+    font-size: 50px;
+    color: purple;
+  }
+
+  #signIcon{
+    font-size: 50px;
+    color: purple;
+  }
+
+  #footer{
+    background-color:black ;
+   padding: 40px 40px 40px 40px;
+   color:white;
+  }
+
+
+
+
+  </style>
+  <title>MudahCar</title>
+</head>
+<body>
+
+  <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-danger">
+    <div class="container-fluid px-4 py-2">
+      <a class="navbar-brand text-white" href="#">Mudah Car</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Type of Car
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider text-white"></li>
+              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="jumbotron">
+    <div class="p-5 text-center">
+      <h1 class="display-4">MudahCar</h1>
+      <p class="lead">The easiest way to get your car</p>
+      <hr class="my-4" style="width:30%; margin:0px auto;">
+      <span>From <input type="text" name="Date" placeholder="dd/mm/yy"> Until <input type="text" name="Date" placeholder="dd/mm/yy"><button style="font-size:10px" class="btn btn-primary btn-lg">Search</button> </span>
+    </div>
+  </section>
+  <br>
+
+  <div>
+    <h3 class="text-center">Our Advantages</h3>
+  </div>
+  <br>
+
+  <section>
+    <div class="row">
+      <div class="col-4 text-center">
+        <i id="carIcon" class="fas fa-car"></i>
+        <p>Fast</p>
+      </div>
+
+      <div class="col-4 text-center">
+        <i id="clockIcon" class="fas fa-clock"></i>
+        <p>24 Hours</p>
+      </div>
+
+      <div class="col-4 text-center">
+        <i  id="signIcon" class="fas fa-map-signs"></i>
+        <p>State Wide Delivery</p>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <hr>
+
+  <h3 class="text-center">Types Of Cars</h3>
+  <br>
+
+  <section>
+    <div class="row">
+      <div class="col-3 text-center">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.duaria.com/wp-content/uploads/2018/02/myvi-white.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Small Car</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 text-center">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYcOO8N34mh3thUH1E317hpoTl8_o_Dn9IA&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Average Size Car</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 text-center">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.piston.my/wp-content/uploads/2019/10/2020-Toyota-GranAce-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MPV</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 text-center">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn2.adrianflux.co.uk/wp-fluxposure/uploads/2017/12/white-van-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Van</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+
+  <footer>
+    <div id="footer">
+    <p class="text-center">CopyRight<i class="far fa-copyright"></i>2019</p>
+    <p class="text-center">Contact us at 012 380 7198 for more info</p>
+    </div>   
+  </footer>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>
